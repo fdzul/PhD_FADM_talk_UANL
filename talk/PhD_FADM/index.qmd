@@ -572,8 +572,7 @@ metros)
 <br>
 <br>
 <br>
-### Objetivo 1
-[Determinar los hotspots de DENV, CHIKV y ZIKV en localidades endémicas de México y la concordancia espacial de los hotspots de transmisión de DENV, CHIKV y ZIKV.]()
+[Objetivo 1. Determinar los hotspots de DENV, CHIKV y ZIKV en localidades endémicas de México y la concordancia espacial de los hotspots de transmisión de DENV, CHIKV y ZIKV.]()
 
 ## [Análisis de Sensibilidad & Especificidad]{style="color:#003300;font-size:4vw"}
 
@@ -649,18 +648,56 @@ x |>
 
 ![](https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/a29642f4-13ec-4d87-999c-653d32e4d268/gr4_lrg.jpg){.absolute top="100" width="800" height="550" right="120"}
 
-## [Concordancia Espacial de los Hotspots]{style="color:#003300;"}
+## [Concordancia Espacial de los Hotspots]{style="color:#003300;font-size:5vw"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ```{r, echo=FALSE}
 readxl::read_xlsx("tables/mmc2-tableS4-5.xlsx", sheet = 2) |>
     dplyr::select(-2) |>
 kableExtra::kable() |>
-    kableExtra::kable_classic() |>
+    #kableExtra::kable_classic() |>
     kableExtra::footnote(general = "Valores del estadístico Kendall-W para cada combinación de arbovirosis. Las relaciones no signitificativas son indicadas por el asterisco (P>0.5)") |> kableExtra::kable_styling(bootstrap_options = "striped", 
-                            font_size = 28)
+                            font_size = 24)
 
 ```
+
+
+## [Resultados. Objetivo 2.]{style="color:#003300;align-items: center"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+<br>
+<br>
+<br>
+[Objetivo 2. Determinar el efecto del tamaño de muestra del número de ovitrampas por manzana en la abundancia de huevos de ***Aedes aegypti*** ]()
+
+## [**Ovirampas instaladas y manzanas muestradas**]{style="color:#003300;font-size:3vw"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+![](figs/manzanas&ovitrampas_instaladas.jpg){.absolute top="100" width="800" height="550" right="120"}
+
+## [**Abundancia de Huevos por Tamaño de Muestra**]{style="color:#003300;font-size:3vw"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+![](figs/times_series_plot.jpg){.absolute top="100" width="800" height="550" right="120"}
+
+## [**Comparacion de Diferentes Modelos**]{style="color:#003300;font-size:3vw"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+![](figs/dic_sample_size_models.jpg){.absolute top="100" width="800" height="550" right="120"}
+
+## [*Resultado**]{style="color:#003300;font-size:3vw"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+![](figs/IRR_sample_size.jpg){.absolute top="100" width="800" height="550" right="120"}
+
+## [Resultados. Objetivo 3.]{style="color:#003300;align-items: center"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+<br>
+<br>
+<br>
+[Objetivo 3. Determinar si la abundancia del vector y de huevos son diferentes en las casas alrededor de los casos positivos a dengue (casos) y las casas alrededor de los casos negativos (controles).]()
+
 
 ## [Dios Botic]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
