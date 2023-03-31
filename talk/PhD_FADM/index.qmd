@@ -45,6 +45,16 @@ library(sf)
 ```
 
 
+## [Introducción]{style="color:#003300"}
+
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+![](figs/VectorBorneDiseases.jpg){.absolute top="100" width="800" height="550" right="120"}
+::: footer
+[link](https://ais.paho.org/phip/viz/cha_cd_vectorborndiseases.asp)
+:::
+
+
 
 ## [Manejo Integrado de Aedes]{style="color:#003300"}
 
