@@ -17,7 +17,7 @@ highlight-style: a11y
 
 <hr>
 
-<h4>Felipe Dzul Manzanilla</h4>
+<h4>Dr. Felipe Dzul Manzanilla</h4>
 
 <h5>Director: Dra. Adriana Flores Suárez</h5>
 <h5>Director: Dr. Gonzalo Vazquez-Prokopec</h5>
@@ -210,9 +210,20 @@ ggplot2::ggplot() +
 ```
 
 
-## [Hotspots de la Transmisión del Dengue]{style="color:#003300;"}
+## [Hotspots de las arbovirosis]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
+:::: {.columns}
+
+::: {.column width="40%"}
+Los ***hotspots*** de las arbovirosis transmitidas por ***Aedes aegypti*** son definidas como aquellas áreas donde se concentra la mayor carga de la transmisión de los virus del Dengue, Chikungunya, y/ó Zika.
+:::
+
+::: {.column width="60%"}
+![](maps/hotspots_ver.jpg)
+:::
+
+::::
 
 ## [Dios Botic]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
