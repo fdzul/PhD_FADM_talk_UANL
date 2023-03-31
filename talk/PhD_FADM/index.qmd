@@ -719,7 +719,17 @@ Positivo4 = c(109, 102, 59, 168, 504),
 Negativo4 = c(109, 102, 59, 168, 504)) |>
 kableExtra::kable() |>
 kableExtra::kable_classic() |>
-    kableExtra::add_header_above(c("Año" = 1, "Localidad" = 2, "Total" = 2, "Area de Estudio" = 2, "Muestreados" = 2), bold = T, align = "center") |> kableExtra::add_header_above(c(" " = 3, "Geocodificados" = 4, " " = 2), bold = T, align = "center")
+    kableExtra::add_header_above(c("Año" = 1, "Localidad" = 2,
+                                   "Total" = 2, "Area de Estudio" = 2,
+                                   "Muestreados" = 2), bold = T,
+                                 align = "center") |> 
+  kableExtra::add_header_above(c(" " = 3, 
+                                 "Geocodificados" = 4, 
+                                 " " = 2), 
+                               bold = T,
+                               align = "center") |>
+  kableExtra::kable_styling(bootstrap_options = "striped", 
+                            font_size = 24)
     
 ```
 
