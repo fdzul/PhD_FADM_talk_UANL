@@ -797,7 +797,7 @@ DiagrammeR::grViz("digraph {
 
 </h1>
 
-## [**Hotspots & Carga de la Enfermedad**]{style="color:#003300;align-items: center"}
+## [**Hotspots & Carga de la Enfermedad**]{style="color:#003300;font-size:3vw"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 Pareto rules
 
@@ -834,7 +834,7 @@ Presente Estudio
 
 
 
-## [Tamaño de Muestra de Ovitrampas]{style="color:#003300;align-items: center"}
+## [Tamaño de Muestra de Ovitrampas]{style="color:#003300;font-size:3vw"}
 
 ::::: {.columns style='display: flex !important; height: 90%;'}
 
@@ -940,5 +940,5 @@ Bowman et al   2014, Chang et al 2015", "Dibo et al 2008,Rubio-Palis et al 2011,
 
 -   ***celular*** : [8139945623]()
 
--   [***slides***](https://beamish-salmiakki-2b94b9.netlify.app/talk/phd_fadm/#/)
+-   [***slides***](https://beamish-salmiakki-2b94b9.netlify.app/talk/phd_fadm/#/): https://beamish-salmiakki-2b94b9.netlify.app/talk/phd_fadm/#/
 
