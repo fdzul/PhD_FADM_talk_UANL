@@ -598,6 +598,8 @@ tibble::tibble(Localidad  = c("Acapulco",
     kableExtra::kable() |>
     kableExtra::kable_classic() |>
     kableExtra::add_header_above(c(" " = 1, "<=12 & >= 70 años de edad" = 2, "Distancia Euclideana" = 2, "Combinación edad & Distancia Euclideana" = 2)) |>
+  kableExtra::kable_styling(bootstrap_options = "striped", 
+                            font_size = 28) |>
   kableExtra::scroll_box(width = "100%", 
                          height = "600px")
 
@@ -605,8 +607,37 @@ tibble::tibble(Localidad  = c("Acapulco",
 
 
 ## [Hotspots de la Transmisión de Dengue]{style="color:#003300;font-size:3vw"}
-
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 ![](https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/3ee89887-cf71-4433-b6a1-4a76c5035589/gr2_lrg.jpg){.absolute top="100" width="800" height="550" right="120"}
+
+
+## [Hotspots de la Transmisión de Dengue]{style="color:#003300;font-size:3vw"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+x <- readxl::read_xlsx("tables/mmc2-tableS4-5.xlsx", sheet = 1, skip = 1) 
+names(x) <- c("Ciudad", "Estrato", "Pob", "Area", "AGEBs", "DEN", "CHIK 2015", "CHIK 2016", "ZIK 2016", "Arbovirosis")
+x |> 
+    dplyr::select(-Estrato) |>
+    dplyr::mutate(Pob = round(as.numeric(Pob), digits = 2),
+                  Area = round(as.numeric(Area), digits = 2),
+                  AGEBs = round(as.numeric(AGEBs), digits = 2),
+                  DEN = round(as.numeric(DEN), digits = 2),
+                  "CHIK 2015" = round(as.numeric(`CHIK 2015`), digits = 2),
+                  "CHIK 2016" = round(as.numeric(`CHIK 2016`), digits = 2),
+                  "ZIK 2016" = round(as.numeric(`ZIK 2016`), digits = 2),
+                  "Arbovirosis" = round(as.numeric(`Arbovirosis`), digits = 2)) |>
+    dplyr::filter(!is.na(Pob)) |>
+    kableExtra::kable() |>
+    kableExtra::kable_classic() |>
+    kableExtra::add_header_above(c(" " = 1, "Porcentaje del total de Cada Ciudad" = 8)) |>
+  kableExtra::kable_styling(bootstrap_options = "striped", 
+                            font_size = 28) |>
+  kableExtra::scroll_box(width = "100%", 
+                         height = "600px")
+
+```
 
 ## [Dios Botic]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
