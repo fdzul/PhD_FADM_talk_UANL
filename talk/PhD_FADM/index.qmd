@@ -361,7 +361,7 @@ $\color{#0074D9}{\sum_{i = 1}^{n}x_{i}}$ es el denominador, es la suma de todos 
 
 :::
 
-## [Objetivo 2. ]{style="color:#003300;"}
+## [Objetivo 2. Sitio de Estudio]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ::: {.columns}
@@ -393,6 +393,105 @@ blocks_surveillance(locality = "Veracruz",
 [Guías Operativas Arbovirosis](https://www.gob.mx/salud/cenaprece/documentos/guias-operativas-de-arbovirosis-2020?idiom=es)
 
 :::
+
+
+## [Objetivo 2. Hipótesis]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+[El número de huevos es similar independiente del número de ovitrampas por manzana, es decir el muestreo de cuatro ovitrampas por manzana proporciona similar información que tres ovitrampas por manzana, dos ovitrampas por manzana, y una ovitrampa por manzana.]()
+
+## [Diagrama de Flujo]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+
+```{r, echo=FALSE, out.width='100%', fig.align='center'}
+DiagrammeR::grViz("digraph {
+                  # graph definitions
+  graph [layout = dot, rankdir = TB]
+  
+  # node definitions
+  node [shape = rectangle, 
+  style = filled, 
+  color = grey, 
+  nodesep = .5,
+  fixedsize = true, 
+  width = 2.5] 
+  
+  # edge definition
+  edge [color = grey, arrowhead = normal, arrowtail = dot]
+  
+  #####  cenaprece
+  
+ cenaprece [label = 'CENAPRECE',  fillcolor =  '#FF5A5F', color = 'white', fontcolor = 'white']
+ 
+ ovitrap [label = 'Ovitrap Dataset',  fillcolor =  '#FF5A5F', color = 'white', fontcolor = 'white']
+ 
+ merida [label = 'Veracruz',  fillcolor =  '#FF5A5F', color = 'white', fontcolor = 'white']
+ 
+ ##### inegi 
+ inegi [label = 'INEGI',  fillcolor =  '#2EB67D', color = 'white', fontcolor = 'white']
+  
+   blocks [label = 'Blocks',  fillcolor =  '#2EB67D', color = 'white', fontcolor = 'white']
+ 
+ centroid [label = 'centroid',  fillcolor =  '#2EB67D', color = 'white', fontcolor = 'white']
+ 
+ ##### dataset
+ dataset [label = 'Dataset',  fillcolor =  '#4285F4', color = 'white', fontcolor = 'white']
+ 
+ dataset_nested [label = 'Dataset Nested',  fillcolor =  '#4285F4', color = 'white', fontcolor = 'white']
+ 
+ temporal [label = 'Temporal',  fillcolor =  '#4285F4', color = 'white', fontcolor = 'white']
+ 
+ spatial [label = 'Spatial',  fillcolor =  '#4285F4', color = 'white', fontcolor = 'white']
+ 
+ 
+ ##### bootstrap 
+ bootstrap [label = 'Combinaciones/Bootstrap',  fillcolor =  '#E01E5A', color = 'white', fontcolor = 'white']
+ 
+ block [label = 'Block',  fillcolor =  '#E01E5A', color = 'white', fontcolor = 'white']
+  abootstrap [label = '1 ovitrap',  fillcolor =  '#E01E5A', color = 'white', fontcolor = 'white']
+ 
+  bbootstrap [label = '2 ovitraps',  fillcolor =  '#E01E5A', color = 'white', fontcolor = 'white']
+ 
+  cbootstrap [label = '3 ovitraps',  fillcolor =  '#E01E5A', color = 'white', fontcolor = 'white']
+ 
+  dbootstrap [label = '4 ovitraps',  fillcolor =  '#E01E5A', color = 'white', fontcolor = 'white']
+ 
+ ##### ESDA
+  eda [label = 'EDA',  fillcolor =  '#36C5F0', color = 'white', fontcolor = 'white']
+ 
+ mean [label = 'Mean + SE',  fillcolor =  '#36C5F0', color = 'white', fontcolor = 'white']
+ 
+  quantile [label = 'Quantile',  fillcolor =  '#36C5F0', color = 'white', fontcolor = 'white']
+ 
+ #### Analysis
+ analysis [label = 'Analysis',  fillcolor =  '#ECB22E', color = '#ECB22E', fontcolor = 'white']
+ 
+ glmm [label = 'GLMM',  fillcolor =  '#ECB22E', color = '#ECB22E', fontcolor = 'white']
+ 
+ tpl [label = 'Taylor Power Law Analysis',  fillcolor =  '#ECB22E', color = '#ECB22E', fontcolor = 'white']
+ 
+ 
+ 
+ ##### define the relation
+ 
+cenaprece -> ovitrap -> merida
+inegi -> blocks -> centroid
+ {centroid merida} -> dataset
+dataset -> dataset_nested -> {temporal spatial}-> bootstrap
+bootstrap -> block 
+
+block -> {abootstrap bbootstrap cbootstrap dbootstrap} -> {eda analysis}
+
+eda -> {mean quantile}
+analysis -> {glmm tpl}  
+
+}")
+
+```
+
+## [Modelo de Regresión]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 
 
