@@ -367,19 +367,25 @@ $\color{#0074D9}{\sum_{i = 1}^{n}x_{i}}$ es el denominador, es la suma de todos 
 ::: {.columns}
 
 ::: {.column width="50%"}
-- **Muestro Sistemático**
- - 1 manzana por cada 4 a 6 en zonas planas
- - 1 manzana por cada 2 a 4 en zonas con pendientes
- 
+- **Muestro sistemático**
 - **Muestreo por autoselección**
- - una casa por cada lado de la manzana
+
 - **Colecta semanal**
 
 - **Captura en línea**
 :::
 
 ::: {.column width="50%"}
-![](maps/intensity_maps_xalapa.jpg)
+```{r}
+#  Step 1. load the function ####
+source("~/Library/CloudStorage/Dropbox/r_developments/r_new_functions/3.Functions/deneggs/blocks_surveillance.R")
+######
+path_coord <- "/Users/fdzul/Library/CloudStorage/OneDrive-Personal/datasets/CENAPRECE/2022/30_veracruz/DescargaOvitrampasMesFco.txt"
+blocks_surveillance(locality = "Veracruz",
+                    cve_ent = "30",
+                    path_coords = path_coord)
+```
+
 :::
 
 ::::
