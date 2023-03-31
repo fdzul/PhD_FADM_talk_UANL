@@ -59,6 +59,18 @@ library(sf)
 ## [Manejo Integrado de Aedes]{style="color:#003300"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
+![](https://www.ecdc.europa.eu/sites/default/files/images/dengue-cases-worldwide-january-december-2020.jpg)
+
+::: footer
+ 
+[ecdc](https://www.ecdc.europa.eu/en/publications-data/geographical-distribution-dengue-cases-reported-worldwide-2020)
+
+:::
+
+
+## [Manejo Integrado de Aedes]{style="color:#003300"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
 ![](https://journals.plos.org/plosntds/article/figure/image?size=large&id=10.1371/journal.pntd.0006845.g001){.absolute top="100" width="800" height="550" right="120"}
 
 ::: footer
@@ -224,6 +236,14 @@ Los ***hotspots*** de las arbovirosis transmitidas por ***Aedes aegypti*** son d
 :::
 
 ::::
+
+::: footer
+ 
+[Bisanzio  et al 2017](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0006298)
+[Dzul-Manzanilla et al 2021]()
+
+:::
+
 
 ## [Dios Botic]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
