@@ -369,9 +369,7 @@ $\color{#0074D9}{\sum_{i = 1}^{n}x_{i}}$ es el denominador, es la suma de todos 
 ::: {.column width="50%"}
 - **Muestro sistemático**
 - **Muestreo por autoselección**
-
 - **Colecta semanal**
-
 - **Captura en línea**
 :::
 
@@ -392,8 +390,7 @@ blocks_surveillance(locality = "Veracruz",
 
 ::: footer
  
-[Copper et al, 2019;]()
-[Vazquez-Prokopeck et al 2022]()
+[Guías Operativas Arbovirosis](https://www.gob.mx/salud/cenaprece/documentos/guias-operativas-de-arbovirosis-2020?idiom=es)
 
 :::
 
