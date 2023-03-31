@@ -495,7 +495,7 @@ analysis -> {glmm tpl}
 
 $$\color{#2ECC40}{y_i} = \color{#FF4136}{\beta_0} + \color{#0074D9}{\beta_1x} + \color{#F4B400}{\alpha_i} + \color{#6200B4}{\epsilon_i}$$
 donde:
-<h1 style="font-size:2.5vw;">
+<h1 style="font-size:1.9vw;">
 $\color{#2ECC40}{y_i}$ representa el número de huevos por ovitrampa.<br>
 $\color{#FF4136}{\beta_0}$ es el intercepto de la ecuación. <br>
 $\color{#0074D9}{\beta_1x}$ es el coeficiente de la diferencia del número huevos entre los diferentes tamaños de muestra (se tomó como referencia la base de datos completa, cuatro ovitrampas por manzana).<br>
