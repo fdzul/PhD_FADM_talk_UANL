@@ -17,10 +17,10 @@ highlight-style: a11y
 
 <hr>
 
-<h3>Felipe Dzul Manzanilla</h3>
+<h4>Felipe Dzul Manzanilla</h4>
 
-<h3>Director: Dra. Adriana Flores Suárez</h3>
-<h3>Director Externo: Dr. Gonzalo Vazquez-Prokopec</h3>
+<h4>Director: Dra. Adriana Flores Suárez</h4>
+<h4>Director Externo: Dr. Gonzalo Vazquez-Prokopec</h4>
 <h3>
 
 </h3>
