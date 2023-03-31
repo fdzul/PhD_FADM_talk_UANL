@@ -65,7 +65,21 @@ library(sf)
 
 ::: footer
  
-[Roiz, 2018](https://doi.org/10.1371/journal.pntd.0006845)
+[WHO, 2017; Roiz, 2018](https://doi.org/10.1371/journal.pntd.0006845)
+
+:::
+
+
+## [Manejo Integrado de Aedes]{style="color:#003300"}
+
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+![](paho_2019/Diapositiva1.JPG){.absolute top="100" width="800" height="550" right="120"}
+
+::: footer
+ 
+[OPS, 2019](https://iris.paho.org/handle/10665.2/51654)
+[OPS, 2019](https://iris.paho.org/handle/10665.2/51760)
 
 :::
 
