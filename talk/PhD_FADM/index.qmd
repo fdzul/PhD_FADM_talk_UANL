@@ -574,7 +574,7 @@ metros)
 <br>
 [Objetivo 1. Determinar los hotspots de DENV, CHIKV y ZIKV en localidades endémicas de México y la concordancia espacial de los hotspots de transmisión de DENV, CHIKV y ZIKV.]()
 
-## [Análisis de Sensibilidad & Especificidad]{style="color:#003300;font-size:4vw"}
+## [Análisis de Sensibilidad & Especificidad]{style="color:#003300;font-size:3vw"}
 
 ```{r, echo=FALSE}
 tibble::tibble(Localidad  = c("Acapulco",
@@ -638,7 +638,7 @@ x |>
 ```
 
 
-## [Hotspots de la Transmisión de Dengue & Chikungunya]{style="color:#003300;font-size:3vw"}
+## [Hotspots del Dengue & Chikungunya]{style="color:#003300;font-size:3vw"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ![](https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/9e0fbb95-e527-4e0c-9d9d-8d7487766a60/gr3_lrg.jpg){.absolute top="100" width="800" height="550" right="120"}
@@ -648,7 +648,7 @@ x |>
 
 ![](https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/a29642f4-13ec-4d87-999c-653d32e4d268/gr4_lrg.jpg){.absolute top="100" width="800" height="550" right="120"}
 
-## [Concordancia Espacial de los Hotspots]{style="color:#003300;font-size:5vw"}
+## [Concordancia Espacial de los Hotspots]{style="color:#003300;font-size:3vw"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ```{r, echo=FALSE}
@@ -670,12 +670,12 @@ kableExtra::kable() |>
 <br>
 [Objetivo 2. Determinar el efecto del tamaño de muestra del número de ovitrampas por manzana en la abundancia de huevos de ***Aedes aegypti*** ]()
 
-## [**Ovirampas instaladas y manzanas muestradas**]{style="color:#003300;font-size:3vw"}
+## [**Ovirampas Instaladas y Manzanas Muestradas**]{style="color:#003300;font-size:3vw"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ![](figs/manzanas&ovitrampas_instaladas.jpg){.absolute top="100" width="800" height="550" right="120"}
 
-## [**Abundancia de Huevos por Tamaño de Muestra**]{style="color:#003300;font-size:3vw"}
+## [**Abundancia de Huevos & Tamaño de Muestra**]{style="color:#003300;font-size:3vw"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ![](figs/times_series_plot.jpg){.absolute top="100" width="800" height="550" right="120"}
@@ -685,7 +685,7 @@ kableExtra::kable() |>
 
 ![](figs/dic_sample_size_models.jpg){.absolute top="100" width="800" height="550" right="120"}
 
-## [*Resultado**]{style="color:#003300;font-size:3vw"}
+## [**Incidence Rate Ratio**]{style="color:#003300;font-size:3vw"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ![](figs/IRR_sample_size.jpg){.absolute top="100" width="800" height="550" right="120"}
@@ -697,6 +697,37 @@ kableExtra::kable() |>
 <br>
 <br>
 [Objetivo 3. Determinar si la abundancia del vector y de huevos son diferentes en las casas alrededor de los casos positivos a dengue (casos) y las casas alrededor de los casos negativos (controles).]()
+
+
+## [Casos de Positivos de Dengue de Varacruz]{style="color:#003300;font-size:3vw"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+![](figs/time_series_dengue_edo_ver.jpg){.absolute top="100" width="800" height="550" right="120"}
+
+## [Casos de Positivos  y Negativos de Dengue Muestreados]{style="color:#003300;font-size:3vw"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+```{r, echo=FALSE}
+tibble::tibble(" " = c("2019", "2014", "2013", "2012", ""),
+Positivo = c(262, 180, 88, 250, 270),
+Negativo = c(189, 264, 189, 486, 1228),
+Positivo2 = c(262, 180, 88, 250, 780),
+Negativo2 = c(189, 264, 189, 486, 1228),
+Positivo3 = c(255, 150, 77, 208, 690),
+Negativo3 = c(146, 217, 170, 408, 941),
+Positivo4 = c(109, 102, 59, 168, 504),
+Negativo4 = c(109, 102, 59, 168, 504)) |>
+kableExtra::kable() |>
+kableExtra::kable_classic() |>
+    kableExtra::add_header_above(c("Año" = 1, "Localidad" = 2, "Total" = 2, "Area de Estudio" = 2, "Muestreados" = 2), bold = T, align = "center") |> kableExtra::add_header_above(c(" " = 3, "Geocodificados" = 4, " " = 2), bold = T, align = "center")
+    
+```
+
+
+## [Relación entre casos y huevos de **Aedes aegypti**]{style="color:#003300;font-size:3vw"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+![](figs/OR_test_negative_design_2012_2019_b.jpg){.absolute top="100" width="800" height="550" right="120"}
 
 
 ## [Dios Botic]{style="color:#003300;"}
