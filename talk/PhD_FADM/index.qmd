@@ -909,7 +909,7 @@ Bowman et al   2014, Chang et al 2015", "Dibo et al 2008,Rubio-Palis et al 2011,
 - [No hay diferencia entre la abundancia de huevos entre los casos y controles.]()
 
 
-## [Productos Derivados de la Tesis]{style="color:#003300;font-size:5vw"}
+## [Productos Derivados de la Tesis]{style="color:#003300;font-size:3vw"}
 
 ::::: {.columns style='display: flex !important; height: 90%;'}
 
