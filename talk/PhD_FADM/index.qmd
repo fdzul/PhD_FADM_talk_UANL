@@ -749,7 +749,7 @@ kableExtra::kable_classic() |>
 
 
 
-## [Identificacion de los Hotspots]{style="color:#003300;align-items: center"}
+## [Identificacion de los Hotspots]{style="color:#003300;font-size:3vw"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 ```{r, dpi=300,echo=FALSE, fig.align ="center", out.width = "100%"}
 DiagrammeR::grViz("digraph {
