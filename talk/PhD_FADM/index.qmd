@@ -345,6 +345,19 @@ DiagrammeR::grViz("digraph {
 :::
 
 
+## Estadístico Espacial Local $\color{#2ECC40}G_{\color{#2ECC40}i}^{\color{#2ECC40}*}$
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+
+::: footer
+ 
+[Copper et al, 2019;]()
+[Vazquez-Prokopeck et al 2022]()
+
+:::
+
+
+
 ## [Dios Botic]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
