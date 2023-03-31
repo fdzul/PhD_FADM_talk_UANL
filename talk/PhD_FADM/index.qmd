@@ -266,6 +266,16 @@ Teóricamente, de acuerdo a la ley de Pareto 80/20, si el 80% de la transmisión
 
 :::
 
+## [Hipotesis]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+
+## [Objetivo General]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+## [Objetivos Específicos]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
 
 ## [Dios Botic]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
