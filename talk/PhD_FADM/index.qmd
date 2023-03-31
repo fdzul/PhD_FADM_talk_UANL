@@ -734,7 +734,7 @@ kableExtra::kable_classic() |>
 ```
 
 
-## [Relación entre casos y huevos de **Aedes aegypti**]{style="color:#003300;font-size:3vw"}
+## [Relación entre casos y huevos]{style="color:#003300;font-size:3vw"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ![](figs/OR_test_negative_design_2012_2019_b.jpg){.absolute top="100" width="800" height="550" right="120"}
