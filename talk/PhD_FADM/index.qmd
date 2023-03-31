@@ -57,8 +57,6 @@ library(sf)
 
 :::
 
-
-
 ## [Manejo Integrado de Aedes]{style="color:#003300"}
 
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
@@ -199,11 +197,11 @@ ggplot2::ggplot() +
 ## [Dios Botic]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
--   ***Bio*** : https://fdzul.github.io/web_site_fadm/
+-   [***Bio***](https://fdzul.github.io/web_site_fadm/)
 
 -   ***email*** : [felipe.dzul.m@gmail.com]()
 
 -   ***celular*** : [8139945623]()
 
--   ***slides***: https://beamish-salmiakki-2b94b9.netlify.app/talk/phd_fadm/#/
+-   [***slides***](https://beamish-salmiakki-2b94b9.netlify.app/talk/phd_fadm/#/)
 
