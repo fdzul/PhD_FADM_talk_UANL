@@ -53,7 +53,7 @@ library(sf)
 
 ::: footer
  
-[link](https://ais.paho.org/phip/viz/cha_cd_vectorborndiseases.asp)
+[PAHO, 2023](https://ais.paho.org/phip/viz/cha_cd_vectorborndiseases.asp)
 
 :::
 
@@ -62,6 +62,12 @@ library(sf)
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ![](https://journals.plos.org/plosntds/article/figure/image?size=large&id=10.1371/journal.pntd.0006845.g001){.absolute top="100" width="800" height="550" right="120"}
+
+::: footer
+ 
+[Roiz, 2018](https://doi.org/10.1371/journal.pntd.0006845)
+
+:::
 
 ## [Operacionalización del MIA]{style="color:#003300"}
 
