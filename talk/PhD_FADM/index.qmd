@@ -56,7 +56,7 @@ library(sf)
 
 :::
 
-## [Manejo Integrado de Aedes]{style="color:#003300"}
+## [Distribución del Dengue]{style="color:#003300"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ![](https://www.ecdc.europa.eu/sites/default/files/images/dengue-cases-worldwide-january-december-2020.jpg)
@@ -503,7 +503,7 @@ $\color{#F4B400}{\alpha_i}$ el efecto del intercepto aleatorio, anida las observ
 $\color{#6200B4}{\epsilon_i}$ representan el error, el cual incorporará la variabilidad natural del sistema biológico y el error observacional o de medición.<br>
 Los modelos asumen que los interceptos aleatorios y el error son distribuidos independientemente e idénticos con media cero y una varianza.Los modelos fueron implementados para cada combinación de año y semana.</h1>
 
-## [Objetivo 3. Relación de casos y el vector]{style="color:#003300;font-size:5vw"}
+## [Relación de casos y el vector]{style="color:#003300;font-size:5vw"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ```{r, dpi=300,echo=FALSE, fig.align ="center", out.width = "100%"}
@@ -548,8 +548,6 @@ DiagrammeR::grViz("digraph {
 
 ## [Modelo de Regresión]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
-
-
 $$\color{#2ECC40}y{_\color{#2ECC40}i} = \color{#FF4136}\beta{_\color{#FF4136}0} + \color{#0074D9}\beta{_\color{#0074D9}1}\color{#0074D9}x + \color{#F4B400}\alpha{_\color{#F4B400}i} + \color{#6200B4}\epsilon{_\color{#6200B4}i}$$
 <h1 style="font-size:2vw;">
 donde: 
@@ -567,6 +565,66 @@ $\color{#6200B4}\epsilon{_\color{#6200B4}i}$ representan el error, el cual incor
 Los modelos asumen que los interceptos aleatorios y el error son distribuidos independientemente e idénticos con media cero y una varianza. Los modelos fueron implementados para cada combinación de año, lags (lags0 a lags4) y buffers (100-500 
 metros)
 </h1>
+
+## [Resultados]{style="color:#003300;align-items: center"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+<br>
+<br>
+<br>
+### Objetivo 1
+[Determinar los hotspots de DENV, CHIKV y ZIKV en localidades endémicas de México y la concordancia espacial de los hotspots de transmisión de DENV, CHIKV y ZIKV.]()
+
+## [Análisis de Sensibilidad & Especificidad]{style="color:#003300;font-size:5vw"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+```{r, echo=FALSE}
+tibble::tibble(Localidad  = c("Acapulco",
+                                   "Mérida",
+                                   "Veracruz",
+                                   "Cancún",
+                                   "Tapachula",
+                                   "Villahermosa",
+                                   "Campeche",
+                                   "Iguala",
+                                   "Coatzacoalcos",
+                                   "Promedio"),
+                    sensibilidad1 = c(.67, .76, .71, .89, .79,
+                                      .95, .71, .63, .8, .77),
+               especificidad1 = c(.96, .91, .93, .93, .95, .95, .94, .98, .96, .95),
+               sensibilidad2 = c(.61, .73, .38, .71, .33, .75, .5, .67, .33, .56),
+               especificidad2 = c(.87, .82, .89, .82, .88, .86, .85, .93, .89, .87),
+               sensibiliad3 = c(.68, .62, .38, .67, .33, .85, .31, .42, .36, .51),
+               especificidad3 = c(.88, .82, .90, .83, .89, .88, 83, 92, .91, .87)) |>
+    kableExtra::kable() |>
+    kableExtra::kable_classic() |>
+    kableExtra::add_header_above(c(" " = 1, "<=12 & >= 70 años de edad" = 2, "Distancia Euclideana" = 2, "Combinación edad & Distancia Euclideana" = 2))
+
+```
+
+## Quarto
+
+::::: {.columns style='display: flex !important; height: 90%;'}
+
+::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'}
+
+This
+
+is
+
+column 
+
+1
+
+:::
+
+::: {.column width="50%"}
+This is
+
+column 2
+:::
+
+::::
 
 ## [Dios Botic]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
