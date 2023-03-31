@@ -575,8 +575,7 @@ metros)
 ### Objetivo 1
 [Determinar los hotspots de DENV, CHIKV y ZIKV en localidades endémicas de México y la concordancia espacial de los hotspots de transmisión de DENV, CHIKV y ZIKV.]()
 
-## [Análisis de Sensibilidad & Especificidad]{style="color:#003300;font-size:5vw"}
-<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+## [Sensibilidad & Especificidad]{style="color:#003300;font-size:4vw"}
 
 ```{r, echo=FALSE}
 tibble::tibble(Localidad  = c("Acapulco",
