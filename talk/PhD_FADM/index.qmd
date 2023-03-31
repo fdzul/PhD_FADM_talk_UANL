@@ -210,6 +210,10 @@ ggplot2::ggplot() +
 ```
 
 
+## [Hotspots de la Transmisión del Dengue]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+
 ## [Dios Botic]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
