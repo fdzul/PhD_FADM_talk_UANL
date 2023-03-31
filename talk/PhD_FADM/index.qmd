@@ -747,6 +747,56 @@ kableExtra::kable_classic() |>
 <br>
 [Objetivo 1. Determinar los hotspots de DENV, CHIKV y ZIKV en localidades endémicas de México y la concordancia espacial de los hotspots de transmisión de DENV, CHIKV y ZIKV.]()
 
+
+
+## **Identificación de los hotspots**
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+```{r, dpi=300,echo=FALSE, fig.align ="center", out.width = "100%"}
+DiagrammeR::grViz("digraph {
+
+  # graph definitions
+  graph [layout = dot, rankdir = TB]
+  
+  # node definitions
+  node [shape = rectangle, style = filled, color = grey] 
+  
+  # flowchart for hotspots
+ 
+  hotspots [label = 'Identificación de los Hotspots', style = filled, color = gray]
+  
+  # flowchart for hotspots
+ 
+  val [label = 'Validación de los Hotspots',  style = filled, color = gray]
+  # 
+  carg_enf [label = 'Carga de la Enfermedad', style = filled, color = '#4285F4']
+  
+  abund [label = 'Abundancia diferencial', style = filled, color = '#DB4437'] 
+  
+  risk [label = 'Riesgo Diferencial', style = filled, color = '#0F9D58'] 
+  
+  int [label = 'Intervenciones', style = filled, color = '#F4B400'] 
+  
+  # edge definitions with the node IDs
+  hotspots ->  val -> { carg_enf abund risk int}
+ 
+  }", 
+  height = 300)
+
+```
+
+<h1 style="font-size:2vw;">
+**<span style="color:#4285F4;">Carga de la Enfermedad </span>** (Wen 2006, Almeida et al 2007, Wen et al 2010, Liu et al 2013, Ling et al 2014, Ratanawong et al 2016, Acharya et al 2016, Fuentes-Vallejo et al 2017, Vicente et al 2017, Hernandez-Gaytán et al, 2017, Hafeez et al 2017, Sun et al 2017, Bisanzio et al 2018)
+<br>
+**<span style="color:#DB4437;">Abundancia diferencial (Ka-Chon et al 2018)</span>**
+<br>
+**<span style="color:#0F9D58;">Riesgo Diferencial (Bisanzio et al 2018)</span>**
+<br>
+**<span style="color:#F4B400;">Intervenciones (Com.Pers Felipe Dzul)</span>**
+<br>
+**<span style="color:##4285F4;">Infección Diferencial en el Vector (Com.Pers Felipe Dzul)</span>**
+
+</h1>
+
 ## [Discusión]{style="color:#003300;align-items: center"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
