@@ -503,7 +503,7 @@ $\color{#F4B400}{\alpha_i}$ el efecto del intercepto aleatorio, anida las observ
 $\color{#6200B4}{\epsilon_i}$ representan el error, el cual incorporará la variabilidad natural del sistema biológico y el error observacional o de medición.<br>
 Los modelos asumen que los interceptos aleatorios y el error son distribuidos independientemente e idénticos con media cero y una varianza.Los modelos fueron implementados para cada combinación de año y semana.</h1>
 
-## [Relación de casos y el vector]{style="color:#003300;font-size:5vw"}
+## [Relación de casos y el vector]{style="color:#003300;font-size:3vw"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ```{r, dpi=300,echo=FALSE, fig.align ="center", out.width = "100%"}
