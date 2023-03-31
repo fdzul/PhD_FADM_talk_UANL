@@ -269,12 +269,30 @@ Teóricamente, de acuerdo a la ley de Pareto 80/20, si el 80% de la transmisión
 ## [Hipotesis]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
+[Las arbovirosis transmitidas por ***Aedes aegypti*** presentan concordancia espacial en las áreas de mayor intensidad de transmisión (hotspots), además existe mayor abundancia del vector en las casas alrededor de los casos positivos que en las casas de los casos negativos]()
+
 
 ## [Objetivo General]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
+[Análisis espacio-temporal para identificar los hotspots de la transmisión de los virus del DENV, CHIKV y ZIKV en México.]()
+
+
 ## [Objetivos Específicos]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+- [Determinar los hotspots de DENV, CHIKV y ZIKV en localidades endémicas de México y la concordancia espacial de los hotspots de transmisión de DENV, CHIKV y ZIKV.]()
+
+- [Determinar el efecto del tamaño de muestra del número de ovitrampas por manzana en la abundancia de huevos de ***Aedes aegypti***]()
+
+- [Determinar si la abundancia del vector y de huevos son diferentes en las casas alrededor de los casos positivos a dengue (casos) y las casas alrededor de los casos negativos (controles).]()
+
+## [Objetivo 1. Hotspots de Transmisión]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+
+![](https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/ca6efc8e-6b7a-44aa-b2ab-affa3009fb54/gr1_lrg.jpg"){.absolute top="100" width="700" height="550" right="220"}
+
 
 
 ## [Dios Botic]{style="color:#003300;"}
