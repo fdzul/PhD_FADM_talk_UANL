@@ -603,29 +603,10 @@ tibble::tibble(Localidad  = c("Acapulco",
 
 ```
 
-## Quarto
 
-::::: {.columns style='display: flex !important; height: 90%;'}
+## [Hotspots de la Transmisión de Dengue]{style="color:#003300;font-size:3vw"}
 
-::: {.column width="50%" style='display: flex; justify-content: center; align-items: center;'}
-
-This
-
-is
-
-column 
-
-1
-
-:::
-
-::: {.column width="50%"}
-This is
-
-column 2
-:::
-
-::::
+![](https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/3ee89887-cf71-4433-b6a1-4a76c5035589/gr2_lrg.jpg){.absolute top="100" width="800" height="550" right="120"}
 
 ## [Dios Botic]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
