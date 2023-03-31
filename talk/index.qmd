@@ -19,13 +19,13 @@ highlight-style: a11y
 
 <h3>Felipe Dzul Manzanilla</h3>
 
-<h3></h3>
-
+<h3>Director: Dra. Adriana Flores Suárez</h3>
+<h3>Director Externo: Dr. Gonzalo Vazquez-Prokopec</h3>
 <h3>
 
 </h3>
 
-<h4>2023-04-05</h4>
+<h4>2022-01-24</h4>
 
 <br>
 
