@@ -20,7 +20,7 @@ highlight-style: a11y
 <h4>Felipe Dzul Manzanilla</h4>
 
 <h5>Director: Dra. Adriana Flores Suárez</h5>
-<h5>Director Externo: Dr. Gonzalo Vazquez-Prokopec</h5>
+<h5>Director: Dr. Gonzalo Vazquez-Prokopec</h5>
 <h3>
 
 </h3>
@@ -33,7 +33,7 @@ highlight-style: a11y
 
 `r fontawesome::fa("github", "black")` [github.com/fdzul](https://fdzul.github.io/web_site_fadm/)
 
-![](chains_merida.jpg){.absolute top="155" left="550" width="550"}
+![](chains_merida.jpg){.absolute top="195" left="750" width="550"}
 
 ```{r setup}
 path_arbo <- "/Users/fdzul/Library/CloudStorage/OneDrive-Personal/datasets/DGE/arbo/"
