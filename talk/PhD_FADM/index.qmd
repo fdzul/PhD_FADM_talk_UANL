@@ -550,26 +550,23 @@ DiagrammeR::grViz("digraph {
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 
-### 
 $$\color{#2ECC40}y{_\color{#2ECC40}i} = \color{#FF4136}\beta{_\color{#FF4136}0} + \color{#0074D9}\beta{_\color{#0074D9}1}\color{#0074D9}x + \color{#F4B400}\alpha{_\color{#F4B400}i} + \color{#6200B4}\epsilon{_\color{#6200B4}i}$$
-
+<h1 style="font-size:2vw;">
 donde: 
 
-$\color{#2ECC40}y{_\color{#2ECC40}i}$  es la variable de respuesta, caso = 1 y control = 0
-
+$\color{#2ECC40}y{_\color{#2ECC40}i}$  es la variable de respuesta, caso = 1 y control = 0,<br>
 $\color{#FF4136}\beta{_\color{#FF4136}0}$ es el intercepto de la formula y representa el valor de la 
-ecuación cuando el número de huevos es cero.
+ecuación cuando el número de huevos es cero.<br>
 
-$\color{#0074D9}\beta{_\color{#0074D9}1}\color{#0074D9}x$ es la pendiente de la ecuación y representa la diferencia entre las abundancia de huevos entre los casos y controles y la tasa de cambio en 𝑦 basado en una unidad de cambio en 𝑥
+$\color{#0074D9}\beta{_\color{#0074D9}1}\color{#0074D9}x$ es la pendiente de la ecuación y representa la diferencia entre las abundancia de huevos entre los casos y controles y la tasa de cambio en 𝑦 basado en una unidad de cambio en 𝑥. <br>
 
-$\color{#F4B400}\alpha{_\color{#F4B400}i}$ el efecto del intercepto aleatorio, anida las observaciones por sector, manzana, localidad y municipio.
+$\color{#F4B400}\alpha{_\color{#F4B400}i}$ el efecto del intercepto aleatorio, anida las observaciones por sector, manzana, localidad y municipio.<br>
 
-$\color{#6200B4}\epsilon{_\color{#6200B4}i}$ representan el error, el cual incorporará la variabilidad natural del sistema biológico y el error observacional o de medición
+$\color{#6200B4}\epsilon{_\color{#6200B4}i}$ representan el error, el cual incorporará la variabilidad natural del sistema biológico y el error observacional o de medición. <br>
 
-Los modelos asumen que los interceptos aleatorios y el error son distribuidos independientemente e idénticos con media cero y una varianza
-
-Los modelos fueron implementados para cada combinación de año, lags (lags0 a lags4) y buffers (100-500 
+Los modelos asumen que los interceptos aleatorios y el error son distribuidos independientemente e idénticos con media cero y una varianza. Los modelos fueron implementados para cada combinación de año, lags (lags0 a lags4) y buffers (100-500 
 metros)
+</h1>
 
 ## [Dios Botic]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
