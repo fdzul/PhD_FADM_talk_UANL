@@ -598,7 +598,8 @@ tibble::tibble(Localidad  = c("Acapulco",
     kableExtra::kable() |>
     kableExtra::kable_classic() |>
     kableExtra::add_header_above(c(" " = 1, "<=12 & >= 70 años de edad" = 2, "Distancia Euclideana" = 2, "Combinación edad & Distancia Euclideana" = 2)) |>
-  kableExtra::scroll_box(width = "100%", height = "60%")
+  kableExtra::scroll_box(width = "100%", 
+                         height = "600px")
 
 ```
 
