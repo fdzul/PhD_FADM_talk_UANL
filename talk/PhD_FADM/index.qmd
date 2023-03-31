@@ -345,8 +345,14 @@ DiagrammeR::grViz("digraph {
 :::
 
 
-## Estadístico Espacial Local $\color{#2ECC40}G_{\color{#2ECC40}i}^{\color{#2ECC40}*}$
+## Estadístico Espacial Local $\color{#2ECC40}{G_i^*}$
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+
+$$\color{#2ECC40}{G_i^*} = \frac{\color{#FF4136}{\sum_{i = 1}^{n} W_{ij}x_{ij}}}{\color{#0074D9}{\sum_{i = 1}^{n}x_{i}}}$$
+$\color{#FF4136}{\sum_{i = 1}^{n} W_{ij}x_{j}}$ es el numerador, $x_{ij}$ representa la suma de los valores $x$ (casos) de  la unidad espacial de interes $x_{i}$ y sus vecinos $x{_j}$, incluyendo el valor de la unidad $i$, $\color{#FF4136}w_{\color{#FF4136}i\color{#FF4136}j}$ es la matriz de adjacencias.
+
+$\color{#0074D9}{\sum_{i = 1}^{n}x_{i}}$ el denominador, es la suma de todos los valores $x_i$ en toda la localidad de interes.
 
 
 ::: footer
