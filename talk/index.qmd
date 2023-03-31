@@ -3,13 +3,13 @@ format:
   revealjs:
     #theme: ["theme/q-theme.scss"]
     slide-number: c/t
-    logo: "https://salud.yucatan.gob.mx/files/get/2889?v=1669754780"
-    footer: "[github.com/fdzul](https://joyful-palmier-ec5e33.netlify.app/talks/reunion_interstatal/#/)"
+    logo: "http://www.fcb.uanl.mx/nw/images/logo_fcb.png"
+    footer: "[github.com/fdzul](https://beamish-salmiakki-2b94b9.netlify.app/talk/#/)"
     center-title-slide: true
 highlight-style: a11y
 ---
 
-<h2>Plan Interestatal de Prevención y Control del Dengue<br>en Yucatán</h2>
+<h2>Hotspots de la Transmisión de los virus del Dengue, Chikungunya y Zika en México<br></h2>
 
 <h2>
 
@@ -19,7 +19,7 @@ highlight-style: a11y
 
 <h3>Felipe Dzul Manzanilla</h3>
 
-<h3>Jorge Palacios</h3>
+<h3></h3>
 
 <h3>
 
@@ -43,6 +43,8 @@ x <- boldenr::read_dataset_bol(path = path_arbo,
 source("~/Dropbox/r_developments/r_new_functions/3.Functions/static_bump_map.R")
 library(sf)
 ```
+
+
 
 ## [Manejo Integrado de Aedes]{style="color:#003300"}
 
