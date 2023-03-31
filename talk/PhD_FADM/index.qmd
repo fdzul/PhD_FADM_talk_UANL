@@ -614,7 +614,6 @@ tibble::tibble(Localidad  = c("Acapulco",
 ## [Hotspots de la Transmisión de Dengue]{style="color:#003300;font-size:3vw"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
-
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 x <- readxl::read_xlsx("tables/mmc2-tableS4-5.xlsx", sheet = 1, skip = 1) 
 names(x) <- c("Ciudad", "Estrato", "Pob", "Area", "AGEBs", "DEN", "CHIK 2015", "CHIK 2016", "ZIK 2016", "Arbovirosis")
@@ -630,12 +629,36 @@ x |>
                   "Arbovirosis" = round(as.numeric(`Arbovirosis`), digits = 2)) |>
     dplyr::filter(!is.na(Pob)) |>
     kableExtra::kable() |>
-    kableExtra::kable_classic() |>
+    #kableExtra::kable_classic() |>
     kableExtra::add_header_above(c(" " = 1, "Porcentaje del total de Cada Ciudad" = 8)) |>
   kableExtra::kable_styling(bootstrap_options = "striped", 
                             font_size = 28) |>
   kableExtra::scroll_box(width = "100%", 
                          height = "600px")
+
+```
+
+
+## [Hotspots de la Transmisión de Dengue & Chikungunya]{style="color:#003300;font-size:3vw"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+![](https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/9e0fbb95-e527-4e0c-9d9d-8d7487766a60/gr3_lrg.jpg){.absolute top="100" width="800" height="550" right="120"}
+
+## [Hotspots de la Transmisión de Dengue & Zika]{style="color:#003300;font-size:3vw"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+![](https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/a29642f4-13ec-4d87-999c-653d32e4d268/gr4_lrg.jpg){.absolute top="100" width="800" height="550" right="120"}
+
+## [Concordancia Espacial de los Hotspots]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+```{r, echo=FALSE}
+readxl::read_xlsx("tables/mmc2-tableS4-5.xlsx", sheet = 2) |>
+    dplyr::select(-2) |>
+kableExtra::kable() |>
+    kableExtra::kable_classic() |>
+    kableExtra::footnote(general = "Valores del estadístico Kendall-W para cada combinación de arbovirosis. Las relaciones no signitificativas son indicadas por el asterisco (P>0.5)") |> kableExtra::kable_styling(bootstrap_options = "striped", 
+                            font_size = 28)
 
 ```
 
