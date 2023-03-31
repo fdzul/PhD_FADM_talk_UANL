@@ -339,8 +339,7 @@ DiagrammeR::grViz("digraph {
 
 ::: footer
  
-[Copper et al, 2019;]()
-[Vazquez-Prokopeck et al 2022]()
+[Dzul-Manzanilla et al 2021](https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(21)00030-9/fulltext)
 
 :::
 
@@ -357,10 +356,41 @@ $\color{#0074D9}{\sum_{i = 1}^{n}x_{i}}$ es el denominador, es la suma de todos 
 
 ::: footer
  
-[Getis & Ord. 1992;;](https://onlinelibrary.wiley.com/doi/10.1111/j.1538-4632.1992.tb00261.x)
+[Getis & Ord. 1992;](https://onlinelibrary.wiley.com/doi/10.1111/j.1538-4632.1992.tb00261.x)
 [Ord & Getis 1995](https://onlinelibrary.wiley.com/doi/10.1111/j.1538-4632.1995.tb00912.x)
 
 :::
+
+## [Objetivo 2. ]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+::: {.columns}
+
+::: {.column width="50%"}
+- **Muestro Sistemático**
+ - 1 manzana por cada 4 a 6 en zonas planas
+ - 1 manzana por cada 2 a 4 en zonas con pendientes
+ 
+- **Muestreo por autoselección**
+ - una casa por cada lado de la manzana
+- **Colecta semanal**
+
+- **Captura en línea**
+:::
+
+::: {.column width="50%"}
+![](maps/intensity_maps_xalapa.jpg)
+:::
+
+::::
+
+::: footer
+ 
+[Copper et al, 2019;]()
+[Vazquez-Prokopeck et al 2022]()
+
+:::
+
 
 
 
