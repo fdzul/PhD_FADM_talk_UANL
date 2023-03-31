@@ -239,8 +239,30 @@ Los ***hotspots*** de las arbovirosis transmitidas por ***Aedes aegypti*** son d
 
 ::: footer
  
-[Bisanzio  et al 2017](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0006298)
-[Dzul-Manzanilla et al 2021]()
+[Bisanzio et al 2017;](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0006298)
+[Dzul-Manzanilla et al 2021](https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(21)00030-9/fulltext)
+
+:::
+
+## [Justificación]{style="color:#003300;"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+::: {.columns}
+
+::: {.column width="50%"}
+Teóricamente, de acuerdo a la ley de Pareto 80/20, si el 80% de la transmisión se concentra en el 20% del área urbana, la focalización de las acciones en el 20% del área, permitiría obtener reducciones del 80% de la carga de la enfermedad
+:::
+
+::: {.column width="50%"}
+![](maps/intensity_maps_xalapa.jpg)
+:::
+
+::::
+
+::: footer
+ 
+[Copper et al, 2019;](https://www.nature.com/articles/s41467-019-11861-y)
+[Vazquez-Prokopeck et al 2022](https://academic.oup.com/pnasnexus/article/2/3/pgad024/7010769)
 
 :::
 
