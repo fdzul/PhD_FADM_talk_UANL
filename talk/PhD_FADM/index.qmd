@@ -503,6 +503,49 @@ $\color{#F4B400}{\alpha_i}$ el efecto del intercepto aleatorio, anida las observ
 $\color{#6200B4}{\epsilon_i}$ representan el error, el cual incorporará la variabilidad natural del sistema biológico y el error observacional o de medición.<br>
 Los modelos asumen que los interceptos aleatorios y el error son distribuidos independientemente e idénticos con media cero y una varianza.Los modelos fueron implementados para cada combinación de año y semana.</h1>
 
+## [Objetivo 3. Relación de casos y el vector]{style="color:#003300;font-size:5vw"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
+```{r, dpi=300,echo=FALSE, fig.align ="center", out.width = "100%"}
+DiagrammeR::grViz("digraph {
+
+  # graph definitions
+  graph [layout = dot, rankdir = TB]
+  
+  # node definitions
+  node [shape = rectangle, style = filled, color = grey] 
+  
+  # flowchart for hotspots
+  sinave [label = 'SINAVE',  fillcolor = 'SeaGreen', color = 'white', fontcolor = 'white']
+  denv [label = 'Bases de DENV',  fillcolor = 'SeaGreen', color = 'white', fontcolor = 'white']
+  age_den [label = '<= 12 & >= 65',  fillcolor = 'SeaGreen', color = 'white', fontcolor = 'white']
+  year_den [label = '2012, 2013, 2014, 2019',  fillcolor = 'SeaGreen', color = 'white', fontcolor = 'white']
+  
+  geocode [label = 'Geocodificación',  fillcolor = 'SeaGreen', color = 'white', fontcolor = 'white']
+  cases_ovitrap [label = 'Ovitrampas por Casos']
+  
+  
+  # flow chart for inegi
+  cenaprece [label = 'CENAPRECE', fillcolor = 'DeepSkyBlue', color = 'white', fontcolor = 'black']
+  
+  coord [label = 'Coordenadas', fillcolor = 'DeepSkyBlue', color = 'white', fontcolor = 'black']
+  ovitraps [label = 'Ovitrampas', fillcolor = 'DeepSkyBlue', color = 'white', fontcolor = 'black']
+  #
+   semana_ano [label = 'Semana, Año']
+  
+  # edge definitions with the node IDs
+  edge [color = black]
+  sinave -> denv -> {age_den year_den} -> geocode -> cases_ovitrap
+  
+  cenaprece -> {coord, ovitraps} -> cases_ovitrap -> semana_ano
+  
+ 
+  }", 
+  height = 550)
+
+```
+
+
 
 ## [Dios Botic]{style="color:#003300;"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
