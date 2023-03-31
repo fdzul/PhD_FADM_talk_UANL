@@ -45,8 +45,7 @@ library(sf)
 ```
 
 
-## [Introducción]{style="color:#003300"}
-
+## [ETVs en América]{style="color:#003300"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ![](figs/VectorBorneDiseases.jpg){.absolute top="100" width="800" height="550" right="120"}
@@ -58,7 +57,6 @@ library(sf)
 :::
 
 ## [Manejo Integrado de Aedes]{style="color:#003300"}
-
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ![](https://journals.plos.org/plosntds/article/figure/image?size=large&id=10.1371/journal.pntd.0006845.g001){.absolute top="100" width="800" height="550" right="120"}
@@ -71,7 +69,6 @@ library(sf)
 
 
 ## [Manejo Integrado de Aedes]{style="color:#003300"}
-
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ![](paho_2019/Diapositiva1.JPG){.absolute top="100" width="800" height="550" right="120"}
@@ -84,7 +81,6 @@ library(sf)
 :::
 
 ## [Operacionalización del MIA]{style="color:#003300"}
-
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 ```{r mia_mexico, echo=FALSE, warning=FALSE, message=FALSE}
