@@ -4,7 +4,7 @@ format:
     #theme: ["theme/q-theme.scss"]
     slide-number: c/t
     logo: "http://www.fcb.uanl.mx/nw/images/logo_fcb.png"
-    footer: "[github.com/fdzul](https://beamish-salmiakki-2b94b9.netlify.app/talk/#/)"
+    footer: "[github.com/fdzul](https://beamish-salmiakki-2b94b9.netlify.app/talk/phd_fadm/#/)"
     center-title-slide: true
 highlight-style: a11y
 ---
@@ -192,5 +192,5 @@ ggplot2::ggplot() +
 
 -   ***celular*** : [8139945623]()
 
--   ***slides***: https://beamish-salmiakki-2b94b9.netlify.app/talk/#/
+-   ***slides***: https://beamish-salmiakki-2b94b9.netlify.app/talk/phd_fadm/#/
 
